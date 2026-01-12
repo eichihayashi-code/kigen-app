@@ -72,7 +72,10 @@ export default function Home() {
             企業ごとの面談日程とToDoをまとめて管理
           </p>
         </div>
-        <button style={{ padding: "10px 14px" }}>＋ 企業を追加（次で作る）</button>
+        <button
+  onClick={() => alert("企業追加は次に作ります！")}
+  className="text-sm text-blue-600 hover:underline"
+>＋ 企業を追加</button>
       </header>
 
       <section style={{ marginTop: 24, display: "grid", gap: 12 }}>
